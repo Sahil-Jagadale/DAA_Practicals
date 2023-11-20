@@ -80,5 +80,8 @@ int main(){
         }
         cout<<endl;
     }
+    else{
+        cout<<"There presents an negative cycle in the given graph so bellman ford can't be performed!"<<endl;
+    }
     return 0;
 }
